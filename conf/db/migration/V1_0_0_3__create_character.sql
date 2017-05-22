@@ -1,16 +1,16 @@
 CREATE TABLE `characters` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(256) DEFAULT NULL,
+  `nick_name` varchar(256) DEFAULT NULL,
   `full_name` VARCHAR(255) DEFAULT NULL,
   `real_name` VARCHAR(255) DEFAULT NULL,
   `role_id` bigint(20) NOT NULL,
-  `image_url` VARCHAR(4096) DEFAULT NULL,
+  `picture_url` VARCHAR(4096) DEFAULT NULL,
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 
-INSERT INTO `characters` (`id`, `name`, `full_name`,`real_name`,`role_id`,`image_url`)
+INSERT INTO `characters` (`id`, `nick_name`, `full_name`,`real_name`,`role_id`,`picture_url`)
 VALUES
 (1,'リチャード','リチャード・ヘンドリックス','Thomas Middleditch',1,'http://pattaya-time.wpcloud.net/wp-content/uploads/2016/07/90c9a72cdfd1ae6fb056aae168b8c10e.jpg'),
 (2,'アーリック','アーリック・バックマン','T.J. Miller',3,'http://pattaya-time.wpcloud.net/wp-content/uploads/2016/07/c38598674c3ed3fb518fce4b5079f486.jpg'),
