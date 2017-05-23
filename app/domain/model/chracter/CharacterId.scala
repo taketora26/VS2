@@ -1,6 +1,6 @@
-package model.character
+package domain.model.chracter
 
-import model.ddd.Identifier
+import util.ddd.model.Identifier
 
 /**
   * キャラクターの識別子

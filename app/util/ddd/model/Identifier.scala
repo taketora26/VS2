@@ -1,4 +1,4 @@
-package model.ddd
+package util.ddd.model
 
 /**
   * エンティティの識別子を表すトレイト

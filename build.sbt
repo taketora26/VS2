@@ -6,7 +6,6 @@ lazy val `sv2` = (project in file(".")).enablePlugins(PlayScala)
 
 val mysqlConnectorJ = "mysql" % "mysql-connector-java" % "6.0.6"
 
-
 scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
@@ -23,7 +22,6 @@ libraryDependencies ++= Seq(
   "org.json4s" % "json4s-native_2.11" % "3.4.0",
   mysqlConnectorJ
 )
-
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
 

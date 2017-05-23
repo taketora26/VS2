@@ -1,4 +1,4 @@
-package model.character
+package domain.model.chracter
 
 /**
   * Created by taketoikeda on 2017/05/22.

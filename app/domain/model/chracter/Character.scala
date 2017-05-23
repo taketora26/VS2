@@ -1,6 +1,6 @@
-package model.character
+package domain.model.chracter
 
-import model.ddd.{Entity, Identifier}
+import util.ddd.model.Entity
 
 /**
   * キャラクターのモデル
@@ -27,12 +27,6 @@ trait Character extends Entity[CharacterId]{
 
   /** 顔写真 */
   val pictureURL:Option[PictureURL]
-
-//  /**　登録日 */
-//  val createdAt: DateTime
-//
-//  /** 更新日時 */
-//  val updatedAt: Option[DateTime]
 
 }
 

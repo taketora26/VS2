@@ -1,4 +1,4 @@
-package model.ddd
+package util.ddd.model
 
 /**
   * エンティティを表すトレイトの型

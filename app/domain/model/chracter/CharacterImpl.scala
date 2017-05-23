@@ -1,4 +1,4 @@
-package model.character
+package domain.model.chracter
 
 
 case class CharacterImpl (
