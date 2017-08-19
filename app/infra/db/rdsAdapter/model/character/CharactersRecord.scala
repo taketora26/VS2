@@ -9,7 +9,7 @@ case class CharactersRecord(
                              fullName: String,
                              realName: String,
                              roleId: Int,
-                             imageUrl: String,
+                             imageUrl: Option[String],
                              createdAt: DateTime,
                              updatedAt: DateTime
                            ) extends Record

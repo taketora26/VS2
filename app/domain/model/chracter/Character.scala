@@ -38,15 +38,17 @@ object Character {
            realName: Name,
            role: Option[Seq[Role]],
            skill: Option[Seq[Skill]],
-           pictureURL:Option[PictureURL]):Character =
+           pictureURL:Option[PictureURL]
+           ):Character =
+
   CharacterImpl(
-    identifier,
-      nickName,
-      fullName,
-      realName,
-      role,
-      skill,
-      pictureURL
+    identifier = identifier,
+      nickName = nickName,
+      fullName = fullName,
+      realName = realName,
+      role = role,
+      skill = skill,
+      pictureURL = pictureURL
   )
 
 }

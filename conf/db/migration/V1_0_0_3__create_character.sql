@@ -1,8 +1,8 @@
 CREATE TABLE `characters` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
-  `nick_name` varchar(256) DEFAULT NULL,
-  `full_name` VARCHAR(255) DEFAULT NULL,
-  `real_name` VARCHAR(255) DEFAULT NULL,
+  `nick_name` varchar(256) NOT NULL,
+  `full_name` VARCHAR(255) NOT NULL,
+  `real_name` VARCHAR(255) NOT NULL,
   `role_id` bigint(20) NOT NULL,
   `picture_url` VARCHAR(4096) DEFAULT NULL,
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,

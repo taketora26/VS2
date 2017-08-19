@@ -9,6 +9,4 @@ case class CharacterImpl (
   role: Option[Seq[Role]],
   skill:Option[Seq[Skill]],
   pictureURL:Option[PictureURL]
-                         ) extends Character{
-
-}
+                         ) extends Character
